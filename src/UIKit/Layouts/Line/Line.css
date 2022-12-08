@@ -1,0 +1,14 @@
+.Line {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    align-items: center;
+}
+.Line >:nth-child(-n+6){
+    width: max-content;
+}
+
+
+.Line.between {
+    justify-content: space-between;
+}

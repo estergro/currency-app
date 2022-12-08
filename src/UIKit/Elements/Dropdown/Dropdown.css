@@ -1,0 +1,40 @@
+.Dropdown {
+    position: relative;
+    min-width: 200px;
+}
+.Dropdown .header {
+    background-color: #ddd;
+    width: 300px;
+    border: 1px solid #333;
+}
+.Dropdown .items {
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 100%;
+    width: 301px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+.Dropdown .items:hover{
+    background-color: lightgrey;
+}
+
+.Dropdown .items>h4 {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px;
+}
+
+.Dropdown .header  button{
+    height: 53px;
+}
+
+.Dropdown .items>h4:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.Dropdown .items>h4 .selected{
+    color: #fff;
+    background-color: #1f75cb;
+}
